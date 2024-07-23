@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles version="20">
+    <profile kind="CodeFormatterProfile" name="CustomProfile" version="20">
+        <parent kind="CodeFormatterProfile" name="JavaConventions"/>
+        <!-- Use spaces for indentation -->
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
+        
+        <!-- Set the size of each indentation level -->
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
+        <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>
+
+        <!-- Alignment and wrapping settings -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_binary_expression" value="16"/>
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_selector_in_method_invocation" value="16"/>
+        
+        <!-- Additional relevant settings for consistent indentation -->
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_array_initializer" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_assignment" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_binary_expression" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_conditional_expression" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_function_declaration" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_method_invocation" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_record_declaration" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_type_parameters" value="1"/>
+    </profile>
+
     <profile kind="CodeFormatterProfile" name="JavaConventions" version="20">
         <setting id="org.eclipse.jdt.core.formatter.insert_space_after_ellipsis" value="insert"/>
         <setting id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_enum_declarations" value="insert"/>
