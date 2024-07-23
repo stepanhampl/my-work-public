@@ -2,6 +2,10 @@
 <profiles version="20">
     <profile kind="CodeFormatterProfile" name="CustomProfile" version="20">
         <parent kind="CodeFormatterProfile" name="JavaConventions"/>
+
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="20"/>
+
+        
         <!-- Use spaces for indentation -->
         <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
         
