@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <profiles version="21">
+    <profile kind="CodeFormatterProfile" name="CustomProfile" version="21">
+        <parent kind="CodeFormatterProfile" name="Default"/>
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation" value="1"/>
+        <setting id="org.eclipse.jdt.core.formatter.line_wrap_parameters" value="wrap_always"/>
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="80"/>
+        <setting id="org.eclipse.jdt.core.formatter.line_wrap_arguments_in_method_invocation" value="wrap_always"/>
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation" value="80"/>
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_enum_constants" value="49"/>
+
+<setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_method_declaration" value="separate_lines"/>
+
+    </profile>
 	<profile kind="CodeFormatterProfile" name="Default" version="21">
 		<setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
 		<setting id="org.eclipse.jdt.core.formatter.use_tabs_only_for_leading_indentations" value="false"/>
